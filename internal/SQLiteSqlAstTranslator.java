@@ -15,10 +15,7 @@ import org.hibernate.sql.ast.tree.select.QueryPart;
 import org.hibernate.sql.ast.tree.select.QuerySpec;
 import org.hibernate.sql.exec.spi.JdbcOperation;
 
-/**
- * @author XDSSWAR
- * Created on 01/14/2023
- */
+
 public class SQLiteSqlAstTranslator<T extends JdbcOperation> extends AbstractSqlAstTranslator<T> {
 
     public SQLiteSqlAstTranslator(SessionFactoryImplementor sessionFactory, Statement statement) {
