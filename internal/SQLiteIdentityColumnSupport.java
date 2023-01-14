@@ -2,10 +2,7 @@ package xss.it.lite.dialect.internal;
 
 import org.hibernate.dialect.identity.IdentityColumnSupportImpl;
 
-/**
- * @author XDSSWAR
- * Created on 01/14/2023
- */
+
 public class SQLiteIdentityColumnSupport extends IdentityColumnSupportImpl {
 
     @Override
