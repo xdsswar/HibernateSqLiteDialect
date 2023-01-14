@@ -63,10 +63,7 @@ import static org.hibernate.query.sqm.produce.function.FunctionParameterType.*;
 import static org.hibernate.type.SqlTypes.*;
 import static org.hibernate.type.descriptor.DateTimeUtils.*;
 
-/**
- * @author XDSSWAR
- * Created on 01/14/2023
- */
+
 public class SqLiteDialect extends Dialect {
 
     private static final SQLiteIdentityColumnSupport IDENTITY_COLUMN_SUPPORT = new SQLiteIdentityColumnSupport();
